@@ -6,7 +6,7 @@ docker-compose.yml for running cwltool in the docker container
 
 - Within Docker Container, Dockerfile and docker-compose.yml for using cwltool
   - When using Docker in cwltool in a container, use Host's Docker
-  - This is mounting `${CWD}`, `/tmp`, `/var/run/docker.sock` and `/usr/bin/docker`
+  - This is mounting `${PWD}`, `/tmp`, `/var/run/docker.sock` and `/usr/bin/docker`
 
 ## How to use
 
