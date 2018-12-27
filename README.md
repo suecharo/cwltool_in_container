@@ -10,7 +10,7 @@ docker-compose.yml for running cwltool in the docker container
 
 ## How to use
 
-```bash
+```
 $ git clone https://github.com/suecharo/cwltool_in_container.git
 $ cd cwltool_in_container
 $ docker-compose up -d --build
@@ -21,7 +21,7 @@ $ docker-compose exec cwltool bash
 
 - Using https://github.com/hacchy1983/CWL-workflows
 
-```bash
+```
 $ git clone https://github.com/suecharo/cwltool_in_container.git
 $ cd cwltool_in_container
 $ docker-compose up -d --build
